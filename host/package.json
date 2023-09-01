@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@originjs/vite-plugin-federation": "^1.2.3",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "primevue": "^3.32.2"
+  }
+}
